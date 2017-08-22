@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+ min-height: 100%;
+ background-color: OliveDrab;
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20% 20%;
+ grid-template-rows: 10% 10% 60% 10% 10%;
+}
+
+.header {
+  background-color: DarkCyan;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.name {
+  background-color: Cyan;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.main {
+  background-color: DarkOrange;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  padding: 2em;
+}
+
+.footer {
+  background-color: DarkOrchid;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer {
+  background-color: Orchid;
+}
