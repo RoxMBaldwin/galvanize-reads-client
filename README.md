@@ -1,2 +1,3 @@
 # galvanize-reads-client
-Client Side 
+Client Side
+- CRUD app
