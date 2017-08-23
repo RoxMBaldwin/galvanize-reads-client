@@ -13,7 +13,7 @@ div.nav-wrapper {
   background-color: Olive;
 }
 
-main.main {
+main {
   background-color: Ivory;
   display: flex;
   flex: 1 0 auto;
