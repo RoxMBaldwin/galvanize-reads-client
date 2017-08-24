@@ -17,6 +17,7 @@ main {
   background-color: Ivory;
   display: flex;
   flex: 1 0 auto;
+  flex-direction: column;
   justify-content: space-around;
   padding: 1em;
 }
@@ -25,6 +26,10 @@ div.content {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+div.card {
+  margin: 2em;
 }
 
 .footer {

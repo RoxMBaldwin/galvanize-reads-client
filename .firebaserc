@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "galvanize-reads-77776"
+    "staging": "galvanize-reads-77776",
+    "default": "galvanize-reads-77776"
   }
 }
