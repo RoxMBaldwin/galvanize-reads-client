@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 })
 
-// const baseURL = 'https://rocky-harbor-92850.herokuapp.com/books/'
-const baseURL = 'http://localhost:5000/books/'
+const baseURL = 'https://rocky-harbor-92850.herokuapp.com/books/'
+// const baseURL = 'http://localhost:5000/books/'
 
 function newBook(event){
   let newBookForm = `
